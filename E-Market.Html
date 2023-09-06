@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Add your CSS styles here */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header, nav, main, .trending-container, .search-bar {
+    padding: 1rem;
+  }
+
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+    background-color: #f4f4f4;
+    height: calc(100vh - 85px);
+    overflow-y: auto;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+
+  nav a:hover {
+    color: #007bff;
+  }
+
+  main {
+    /* float: left;
+    width: 60%; */
+
+    display: flex;
+  }
+
+  .trending-container {
+    text-align: center;
+    width: 40%;
+    background-color: Darkgray;
+    /* border: red; */
+    padding: 1rem;
+  }
+
+  .trending img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .trending-description {
+    font-weight: bold;
+    margin-top: 1rem; 
+
+
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 15px;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .search-input {
+    flex: 1;
+    border: 1px solid gray;
+    outline: none;
+    padding: 0.5rem;
+  }
+
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .img-tag > img{
+    max-width: 15.3%;
+  }
+  
+  .Gif-container{
+    height: 8vh;
+    top: 0%;
+    max-width: min-content;
+  }
+
+  .Gif-container > img{
+    object-fit: contain;
+  }
+</style>
+<title>E-Market - Save your energy, Spend your Money</title>
+</head>
+<body>
+
+  <header>
+   
+    <h1>E-Market</h1>
+    <p>Save your energy, Spend your Money</p>
+  </header>
+  
+  <nav>
+    <h2>Account Balance</h2>
+    <p>Your Balance: $0.00
+    </p>
+    <h2>Links</h2>
+    <ul>
+      <li><a href="E-Market.Html">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="Cart.html">Cart</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div>
+      <h2>Welcome to E-Market!</h2>
+      <p>Explore our wide range of products and start shopping today.</p>
+    </div>
+ 
+
+    <input type="text" class="search-input" placeholder="Search For products,Accesories, And Much more...">
+    <button class="search-button">Search</button>
+  </main>
+  
+  <div class="trending-container">
+    <img src="Dior.jpg" alt="Trending Product">
+    <p class="trending-description">Trending</p>
+  </div>
+  <div class="Work needs-container img-tag">
+    <img src="Louis-Vuitton.Jpg" alt="Products needed for working">
+    <p class="Working-description">Computer Products</p>
+  </div>
+  
+  <!-- <div class="search-bar">
+  
+  </div> -->
+</body>
+</html>
